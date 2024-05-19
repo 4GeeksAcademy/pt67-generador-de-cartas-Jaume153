@@ -1,1 +1,33 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background: rgb(13, 155, 13);
+  margin-top: 100px;
+}
+
+#card-body {
+  border-style: solid;
+  border-color: black;
+  background-color: white;
+  border-radius: 4%;
+}
+
+#header-number {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 90px;
+}
+
+#footer-number {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 90px;
+}
+
+#number-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 150px;
+  font-family: "Kelly Slab", sans-serif;
+}
