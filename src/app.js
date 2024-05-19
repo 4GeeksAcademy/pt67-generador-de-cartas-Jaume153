@@ -29,8 +29,6 @@ window.onload = function() {
     putNumber.textContent = randomNumber;
   };
 
-  //Función que cambia el color del palo correspondiente
-
   const randomSuitCard = () => {
     const suits = ["♦", "♥", "♠", "♣"];
     let suit = Math.floor(Math.random() * suits.length);
